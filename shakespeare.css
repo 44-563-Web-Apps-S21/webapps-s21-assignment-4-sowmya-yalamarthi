@@ -10,32 +10,50 @@
     font-size: 15px;
     
 }
-.stage_directions{
+.stage-directions{
     color: black;
-    font-family: 'Times New Roman';
+    font-family:'Times New Roman', Times, serif;
     font-size: 18px;
-    background-color:blueviolet;
+    background-color:skyblue;
 }
-.stage_directions:hover{
+.stage-directions:hover{
     background-color: plum;
     color: chocolate;
 }
 
-.QUINCE{
+.quince{
     color: darkcyan;
 }
-.SNUG{
+.snug{
     color:darkmagenta;
 }
-.BOTTOM{
-    color:yellow;
+.bottom{
+    color:mediumblue;
 }
-.FLUTE{
+.flute{
     color:indianred;
 }
-.SNOUT{
+.snout{
     color:mediumslateblue;
 }
-.STARVELING{
+.starvelling{
     color:palevioletred;
+}
+.puck{
+    color: teal;
+}
+
+.table{
+    
+    text-align: center;
+    color:steelblue;
+    padding: 10px;
+    margin: 10px;
+}
+table, th, td{
+    border: 3px groove;
+}
+tr:nth-child(even)
+{
+    background-color: violet;
 }
